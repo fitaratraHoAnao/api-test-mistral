@@ -1,5 +1,5 @@
 {
-  "name": "groq-api-server",
+  "name": "api-groq-conversation",
   "version": "1.0.0",
   "description": "API basée sur Groq pour une conversation continue",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "dependencies": {
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "groq-sdk": "^1.0.0"
+    "axios": "^1.4.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.0"
@@ -19,5 +19,6 @@
     "node": ">=16.0.0"
   },
   "author": "Ton Nom",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": []
 }
